@@ -62,6 +62,5 @@ If you have any questions or feedback, please contact the project owner at [emai
 Acknowledgments:
 We extend our gratitude to the developers and contributors of the APIs and libraries used in this project.
 
-
-
-https://tijanihind.github.io/Yourdailycalendar/
+Deployed Link: 
+https://otabek0111.github.io/DailyCalendar/

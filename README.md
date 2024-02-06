@@ -17,9 +17,6 @@ Open the "index.html" file in your web browser.
 ## How to Use
 Upon opening Yourdailycalendar, you will be presented with a form to enter your personal information, dietary preferences, and workout schedule. Follow these steps:
 
-**Personal Information:**
-Enter your first name, last name, city, region/state, postal code, and country. This information is used to customize weather forecasts and diet food based on your location.
-
 **Food Recipes:**
 Select your preferred diet from the provided options (e.g., Gluten-Free, Ketogenic, Vegan, etc.). The dashboard will display dietary preferences.
 

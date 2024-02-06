@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=imperial&appid=c27c727042da1e145bf14c1d47031e5d`)
             .then(response => response.json())
             .then(currentData => {
-                console.log(currentData);
+                // console.log(currentData);
                 let currentWeatherCard = document.createElement("div");
                 currentWeatherCard.setAttribute("class", "card");
                 let currentDate = document.createElement("h5");
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let weatherData = data.list;
                 let weatherEl = document.getElementById("weather");
                 weatherEl.innerHTML = "";
-                for (let i = 0; i < weatherData.length; i += 8) {
+                for (let i = 0; i < weatherData.length; i += 9) {
                     // Inside the loop where you create weather cards
                     let weatherCard = document.createElement("div");
                     weatherCard.setAttribute("class", "card");
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const currentDayOfMonth = currentDate.getDate();
 
                 data.results.forEach((recipe, index) => {
-                    if (index < 9) {
+                    if (index < 20) {
                         const dateToFetch = new Date(
                             new Date().getFullYear(),
                             new Date().getMonth(),
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     }
                                 });
 
-                                if (index === 8) {
+                                if (index === 19) {
                                     var calendarEl = document.getElementById("calendar");
 
                                     var calendar = new FullCalendar.Calendar(calendarEl, {

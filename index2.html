@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <title>Your Life Calendar</title>
+</head>
+
+<body>
+    <a href="index.html">
+    <img id="logo" class="h-8 w-auto" src="assets/images/logo-no-background.png" alt="">
+    </a>
+    <section id="submitSection">
+
+        <form class=" shadow-md rounded px-8 pt-6 pb-8 mb-4" id="form">
+            <div class="mb-4">
+                <h2 class="font-bold mb-1">Information Input</h2>
+                <p>Weather In Your City </p>
+
+                <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+                    <!-- <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first-name" type="text" placeholder="First name">
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="last-name" type="text" placeholder="Last name"> -->
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="city" type="text" placeholder="City (default weather in Atlanta GA)">
+                </div>
+                <div class="mt-4">
+                    <label class="font-bold" for="weather">Weather Forecast</label>
+                    <input class="ml-2" id="weather" name="weather" type="checkbox">
+                </div>
+
+                <h2 class="font-bold mt-4 mb-1">Food Recipes</h2>
+                <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" id="diet">
+          <option value="Gluten Free">Gluten Free</option>
+          <option value="Ketogenic">Ketogenic</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Lacto-Vegetarian">Lacto-Vegetarian</option>
+          <option value="Ovo-Vegetarian">Ovo-Vegetarian</option>
+          <option value="Vegan">Vegan</option>
+          <option value="Pescetarian">Pescetarian</option>
+          <option value="Paleo">Paleo</option>
+          <option value="Primal">Primal</option>
+          <option value="Whole30">Whole30</option>
+        </select>
+        <!-- <div class="sm:col-span-3">
+            <h2 class="font-bold mt-4 mb-1">Select your workout</h2>
+            <div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="time" type="text" placeholder="How long is your workout? (minutes)">
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="muscle" type="text" placeholder="What muscle to focus on?">
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="location" type="text" placeholder="Where is your location?">
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="equipment" type="text" placeholder="What type of equipment?"> -->
+      </select>
+  
+          <!-- <label for="workouts" class="block text-sm font-medium leading-6 text-gray-900">Number of Workouts per Week</label>
+          <div class="mt-2">
+              <select id="workouts" name="workouts" autocomplete="workouts" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                  <option value="1">1 workout</option>
+                  <option value="2">2 workouts</option>
+                  <option value="3">3 workouts</option>
+                  <option value="4">4 workouts</option>
+                  <option value="5">5 workouts</option>
+                  <option value="6">6 workouts</option>
+                  <option value="7">7 workouts</option>
+              </select>
+          </div> -->
+      </div>
+
+
+
+
+                <div class="flex items-center justify-between mt-4">
+                    <button class="bg-yellow-200 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" id="cancelBtn">
+                        <a href="index.html" style="text-decoration: none; color: inherit;">Cancel</a>
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" id="submitBtn">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
+
+
+    </section>
+
+
+    <section>
+
+        <div id="calendar">
+
+        </div>
+    </section>
+
+
+
+
+    <script type='importmap'>
+        { "imports": { "@fullcalendar/core": "https://cdn.skypack.dev/@fullcalendar/core@6.1.8", "@fullcalendar/daygrid": "https://cdn.skypack.dev/@fullcalendar/daygrid@6.1.8" } }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./assets/js/script2.js"></script>
+</body>
+
+</html>

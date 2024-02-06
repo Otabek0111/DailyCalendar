@@ -43,7 +43,7 @@ The Yourdailycalendar was built using the following technologies:
 - Day.js (for date manipulation)
 
 ## Contact Information
-If you have any questions or feedback, please contact the project owner at [email address].
+If you have any questions or feedback, please contact the project owner @Otabek0111 
 
 ## Acknowledgments
 We extend our gratitude to the developers and contributors of the APIs and libraries used in this project.

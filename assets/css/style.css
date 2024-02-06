@@ -1,0 +1,23 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1683463787127-9d472af2a9e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center; 
+
+}
+#logo {
+    height: 110px;
+}
+
+#startButton{
+    transition: box-shadow 0.5s ease;
+    color: rgb(201, 208, 167);
+}
+
+#startButton:hover {
+    color: white;
+    box-shadow: 0px 3px 4px 0px rgba(10, 3, 9, 0.7),
+    1px 3px 6px 0px rgba(10, 3, 9, 0.7),
+    2px 3px 6px 0px rgba(10, 3, 9, 0.7),
+    2px 3px 10px 0px rgba(10, 3, 9, 0.7);
+
+}

@@ -1,0 +1,126 @@
+body{
+    /* background-image: url("/assets/images/backgroundTest.jpg"); */
+    background-size: cover;
+    background-position: center; 
+    background-image: url("https://images.unsplash.com/photo-1683463659082-593a05e6e190?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80");
+}
+
+.weather-details{
+    /* color: white; */
+    margin-top: 5px;
+
+}
+.weather-card{
+    color: black;
+}
+.weather-button{
+    margin-top: 5px;
+    background-color: wheat;
+    width: 100%;
+}
+.fc-col-header-cell-cushion {
+    color: black;
+}
+.fc-daygrid-day-number {
+    color: black;
+}
+
+#submitSection{
+    margin: 50px 300px;
+
+}   
+
+#submitBtn {
+    transition: box-shadow 0.5s ease;
+    color: black;
+
+}
+#submitBtn:hover {
+    color: white;
+    box-shadow: 0px 3px 4px 0px rgba(126, 52, 115, 0.7),
+    1px 3px 6px 0px rgba(10, 3, 9, 0.7),
+    2px 5px 10px 0px rgba(10, 3, 9, 0.7),
+    2px 5px 18px 0px rgba(10, 3, 9, 0.7);
+
+}
+
+#cancelBtn {
+    transition: box-shadow 0.5s ease;
+    color: black;
+
+}
+#cancelBtn:hover {
+    color: white;
+    box-shadow: 0px 3px 4px 0px rgba(10, 3, 9, 0.7),
+    1px 3px 6px 0px rgba(10, 3, 9, 0.7),
+    2px 5px 10px 0px rgba(10, 3, 9, 0.7),
+    2px 5px 18px 0px rgba(10, 3, 9, 0.7);
+
+}
+
+.hide{
+    display: none;
+}
+.fc {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.fc-event {
+    font-size: 0.8em;
+    background-color: rgb(236, 213, 155);
+}
+
+.fc-daygrid-event {
+    height: auto;
+}
+
+.fc-event {
+    white-space: normal;
+    overflow: visible;
+}
+.fc-event-title {
+    white-space: normal;
+    color: black;
+}
+
+.fc-event:hover {
+    overflow: visible;
+}
+
+
+
+/* Style for recipe cards */
+#recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.recipe-card h2 {
+    margin-bottom: 10px;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.recipe-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#logo {
+    height: 110px;
+    padding: 10px;
+}
+
